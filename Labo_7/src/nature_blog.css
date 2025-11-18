@@ -1,0 +1,37 @@
+body{
+    width:95%;
+    margin: 0 auto;
+    font-family: Verdana, sans-serif;
+}
+
+header > h1{
+    color: white;
+    background-image: url("../Opgave nature blog/header.jpg");
+    padding-bottom: 50px;
+    margin: 0;
+    font-size: 40px;
+}
+
+nav{
+    background-color: dimgray;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+nav > a{
+    color: springgreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article{
+    background-color: lightgray;
+    padding: 5px;
+    margin: 5px 5px;
+}
+
+article > header{
+    padding: 20px 0;
+    text-decoration: underline;
+    color: #393636;
+}

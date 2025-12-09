@@ -1,0 +1,18 @@
+.container-fluid{
+    padding: 0;
+}
+
+.row{
+    margin: 0;
+}
+
+.row div{
+    border: 5px solid white;
+    background-color: lightgray;
+    height: 50px;
+}
+
+.row div:nth-child(2){
+    background-color: dimgray;
+}
+

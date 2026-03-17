@@ -1,6 +1,4 @@
 const setup = () => {
-// deze code wordt pas uitgevoerd
-// als de pagina volledig is ingeladen
     let tekst = "Gisteren zat de jongen op de stoep en at de helft van de appel";
 
     let array = [''];
@@ -13,7 +11,6 @@ const setup = () => {
     }
     array[aantal] = tekst.substring(index);
 
-    //dit mag mss niet met join
     console.log(array.join(' het '));
 }
 window.addEventListener("load", setup);

@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#spelbord {
+    display: grid;
+    gap: 10px;
+    width: 70%;
+    height: 70%;
+}
+
+.kaart {
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.kaart img {
+    width: 100%;
+    height: 100%;
+}

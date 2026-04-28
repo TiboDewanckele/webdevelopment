@@ -1,0 +1,16 @@
+.colorDemo{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 10px solid lightgray;
+    border-radius: 10px;
+    width: 25%;
+    padding: 30px;
+}

@@ -1,0 +1,54 @@
+body{
+    margin: 0 10%;
+}
+
+#goButton, #input{
+    width: 100%;
+}
+
+#goButton{
+    background: green;
+}
+
+.col-4{
+    height: auto;
+}
+
+.Google{
+    background: blue;
+}
+
+.Google button{
+    background: orangered;
+}
+
+.YouTube{
+    background: red;
+}
+
+.YouTube button, .Twitter button{
+    background: black;
+}
+
+.Twitter{
+    background: deepskyblue;
+}
+
+.Instagram{
+    background: purple;
+}
+
+.Instagram button{
+    background: orange;
+}
+
+.Google,.Google button, .YouTube,.YouTube button,
+.Twitter,.Twitter button, .Instagram,.Instagram button, #goButton{
+    color: white;
+}
+
+button{
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+}
